@@ -41,4 +41,20 @@
             </plugin>
         </plugins>
     </build>
+
+<distributionManagement>
+    	<repository>
+          	<id>Repo-R</id>
+      		<name>Repo-R</name>
+      		<url>http://ec2-15-206-93-80.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-R/</url>
+    	</repository>
+    	<snapshotRepository>
+      		<id>Repo-S</id>
+      		<name>Repo-S</name>
+      		<url>http://ec2-15-206-93-80.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-S/</url>
+        </snapshotRepository>
+ </distributionManagement>
+
+
+
 </project>
