@@ -51,12 +51,12 @@
     	<repository>
           	<id>Repo-R</id>
       		<name>Repo-R</name>
-      		<url>http://ec2-52-66-203-220.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-R/</url>
+      		<url>http://ec2-13-232-3-204.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-R/</url>
     	</repository>
     	<snapshotRepository>
       		<id>Repo-S</id>
       		<name>Repo-S</name>
-      		<url>http://ec2-52-66-203-220.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-S/</url>
+      		<url>http://ec2-13-232-3-204.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-S/</url>
         </snapshotRepository>
  </distributionManagement>
 
